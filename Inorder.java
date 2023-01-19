@@ -24,11 +24,6 @@ public class Inorder {
             sb.append('\n');
 
 
-
-
-
-
-
         }
         System.out.println(sb);
     }
