@@ -22,6 +22,7 @@ public class tree1 {
             }
             res = new StringBuilder();
 
+
             InOrder(1);
             boolean tf = true;
             boolean lastNum;
