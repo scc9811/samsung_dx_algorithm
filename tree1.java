@@ -59,12 +59,8 @@ public class tree1 {
     }
     public static void InOrder(int id){
         if(id>n) return;
-
         InOrder(2*id);
         res.append(tree[id]);
         InOrder(2*id+1);
-
-
-
     }
 }
